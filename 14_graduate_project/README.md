@@ -19,3 +19,19 @@
 - `data_wire_time.csv` — данные о проволочных материалах (время).
 
 Во всех файлах столбец key содержит номер партии. В файлах может быть несколько строк с одинаковым значением key: они соответствуют разным итерациям обработки.
+
+## Используемые инструменты
+
+`pandas` `matplotlib` `seaborn` `numpy` `sklearn` `catboost` `lightgbm`
+
+### Модели
+
+`LinearRegression` `RandomForestRegressor` `CatBoostRegressor` `LGBMRegressor`
+
+### Дополнительно
+
+`StandardScaler` `GridSearchCV` `cross_val_score`
+
+### Метрики
+
+`mean_squared_error`
